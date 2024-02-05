@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="style.css">
     <title>Netflix Replica</title>
 </head>
-<body class="flex flex-row items-center text-white">
+<body class=" flex items-center text-white">
     <div id="side-menu" class="m-3 flex flex-col justify-evenly items-center backdrop-blur-lg rounded-3xl text-white border border-gray-400">
-        <i class="fa-regular fa-circle-play m-1 p-1 bg-red-500 border-red-500 rounded-xl cursor-pointer"></i>
+        <i class="fa-regular fa-circle-play m-1 p-1 bg-red-500 border-red-500 rounded-2xl cursor-pointer"></i>
         <i class="fa-solid fa-table-cells-large m-1 p-1 cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
         <i class="fa-solid fa-tv m-1 p-1 cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
         <i class="fa-solid fa-headphones-simple m-1 p-1 cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
         <i class="fa-solid fa-house m-1 p-1 cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
         <i class="fa-solid fa-magnifying-glass m-1 p-1 cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
     </div>
-    <div id="main-content" class="m-3 flex-grow backdrop-blur-lg rounded-3xl border border-gray-400 flex">
-        <div id="sidebar" class="border-solid border-r border-gray-500">
+    <div id="main-content" class="flex-grow self-stretch m-3 backdrop-blur-lg rounded-3xl border border-gray-400 flex">
+        <div id="sidebar" class="flex-grow-0 border-solid border-r border-gray-500">
             <img src="images/Netflix-Logo.svg" alt="Netflix Logo" class="w-36">
             <div class="my-8 mx-3">
                 <p><i class="fa-solid fa-play my-3 p-2 bg-red-500 rounded-2xl text-black"></i> Browse</p>
@@ -26,25 +26,25 @@
             </div>
             <h1 class="mx-3">New Trailers &#128293;</h1>
             <div id="shadow-and-bone" class="m-3 rounded-lg flex items-end">
-                <div class="flex justify-between items-center backdrop-blur-lg w-36 p-1">
+                <div class="rounded-b-lg flex justify-between items-center backdrop-blur-lg w-36 p-1">
                     <p class="text-xs">Shadow and Bone</p>
                     <i class="fa-regular fa-circle-play"></i>
                 </div>
             </div>
             <div id="the-night-agent" class="m-3 rounded-lg flex items-end">
-                <div class="flex justify-between items-center backdrop-blur-lg w-36 p-1">
+                <div class="rounded-b-lg flex justify-between items-center backdrop-blur-lg w-36 p-1">
                     <p class="text-xs">The Night Agent</p>
                     <i class="fa-regular fa-circle-play"></i>
                 </div>
             </div>
             <div id="the-witcher" class="m-3 rounded-lg flex items-end">
-                <div class="flex justify-between items-center backdrop-blur-lg w-36 p-1">
+                <div class="rounded-b-lg flex justify-between items-center backdrop-blur-lg w-36 p-1">
                     <p class="text-xs">The Witcher</p>
                     <i class="fa-regular fa-circle-play"></i>
                 </div>
             </div>
         </div>
-        <div id="main-content" class="flex flex-col justify-between items-stretch">
+        <div id="main-content" class="flex flex-grow flex-col justify-between items-stretch">
             <header class="flex justify-between items-center m-6">
                 <div>
                     <span class="text-gray-500">&#9001;</span> <span>&#12297;</span>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </header>
-            <div id="peaky-blinders" class="m-3 rounded-lg p-2">
+            <div id="peaky-blinders" class="m-3 rounded-lg p-2 h-1/4">
                 <h1 class="text-7xl">Peaky</h1>
                 <h2 class="text-5xl">Blinders</h2>
                 <p class="text-gray-200 text-xs">2013 - Drama - 5 seasons</p>
@@ -67,9 +67,9 @@
                 <span><i class="fa-solid fa-plus bg-gray-500 px-3 py-2 rounded-md"></i></span>
             </div>
             <h1 class="mx-3 mt-3 text-lg">Popcorn Mania</h1>
-            <div id="popcorn-mania" class="flex mx-3 my-2">
-                <div id="b99" class="flex items-end mr-1 rounded-md">
-                    <div class="bg-black flex justify-between items-center w-40">
+            <div id="popcorn-mania" class="flex mx-3 my-2 h-1/4">
+                <div id="b99" class="flex items-end mr-1 rounded-md w-1/4">
+                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-1">
                         <div>
                             <h4 class="text-sm">Brooklyn Nine-Nine</h4>
                             <p class="text-xs">2020 U/A 16+ 7 Seasons</p>
@@ -77,46 +77,52 @@
                         <i class="fa-solid fa-ellipsis-vertical"></i>
                     </div>
                 </div>
-                <div id="ready-player-one" class="mx-1 rounded-md">
-                    <div>
-                        <h4>Ready Player One</h4>
-                        <p class="text-xs">2018 U/A 13+ 2h 20m</p>
+                <div id="ready-player-one" class="flex items-end mx-1 rounded-md w-1/4">
+                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-1">
+                        <div>
+                            <h4>Ready Player One</h4>
+                            <p class="text-xs">2018 U/A 13+ 2h 20m</p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
                     </div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
                 </div>
-                <div id="money-heist" class="mx-1 rounded-md">
-                    <div>
-                        <h4>Money Heist</h4>
-                        <p class="text-xs">2021 A 2h 20m</p>
+                <div id="money-heist" class="flex items-end mx-1 rounded-md w-1/4">
+                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-1">
+                        <div>
+                            <h4>Money Heist</h4>
+                            <p class="text-xs">2021 A 2h 20m</p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
                     </div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
                 </div>
-                <div id="ash-vs-evil-dead" class="ml-1 rounded-md">
-                    <div >
-                        <h4>Ash vs. Evil Dead</h4>
-                        <p class="text-xs">2018 A 3 Seasons</p>
+                <div id="ash-vs-evil-dead" class="flex items-end ml-1 rounded-md w-1/4">
+                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-1">
+                        <div>
+                            <h4>Ash vs. Evil Dead</h4>
+                            <p class="text-xs">2018 A 3 Seasons</p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
                     </div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
                 </div>
             </div>
             <h1 class="mx-3 mt-3 text-lg">Continue Watching</h1>
-            <div id="continue-watching" class="flex mx-3 my-2">
-                <div id="red-notice" class="mr-1 rounded-md flex flex-col justify-end p-2">
+            <div id="continue-watching" class="flex mx-3 my-2 h-1/4">
+                <div id="red-notice" class="mr-1 rounded-md flex flex-col justify-end p-2 w-1/4">
                     <i class="fa-solid fa-play self-center mb-3"></i>
                     <h2 class="text-xs">Red Notice</h2>
                     <progress value="33" max="100" class="h-0.5 w-36 "></progress>
                 </div>
-                <div id="extraction" class="mx-1 rounded-md flex flex-col justify-end p-2">
+                <div id="extraction" class="mx-1 rounded-md flex flex-col justify-end p-2 w-1/4">
                     <i class="fa-solid fa-play self-center mb-3"></i>
                     <h2 class="text-xs">Extraction</h2>
                     <progress value="65" max="100" class="h-0.5 w-36"></progress>
                 </div>
-                <div id="the-adam-project" class="mx-1 rounded-md flex flex-col justify-end p-2">
+                <div id="the-adam-project" class="mx-1 rounded-md flex flex-col justify-end p-2 w-1/4">
                     <i class="fa-solid fa-play self-center mb-3"></i>
                     <h2 class="text-xs">The Adam Project</h2>
                     <progress value="15" max="100" class="h-0.5 w-36"></progress>
                 </div>
-                <div id="the-old-guard" class="ml-1 rounded-md flex flex-col justify-end p-2">
+                <div id="the-old-guard" class="ml-1 rounded-md flex flex-col justify-end p-2 w-1/4">
                     <i class="fa-solid fa-play self-center mb-3"></i>
                     <h2 class="text-xs">The Old Guard</h2>
                     <progress value="85" max="100" class="h-0.5 w-36"></progress>

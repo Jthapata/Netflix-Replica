@@ -42,8 +42,6 @@ body {
 }
 #b99 {
     background-image: url("./images/brooklyn-99.jpeg");
-    height: 6rem;
-    width: 10rem;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,8 +49,6 @@ body {
 }
 #ready-player-one {
     background-image: url("./images/ready-player-one.jpeg");
-    height: 6rem;
-    width: 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,8 +56,6 @@ body {
 }
 #money-heist {
     background-image: url("./images/money-heist.png");
-    height: 6rem;
-    width: 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,8 +63,6 @@ body {
 }
 #ash-vs-evil-dead {
     background-image: url("./images/ash-vs-evil-dead.jpeg");
-    height: 6rem;
-    width: 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,8 +79,6 @@ body {
 }
 #extraction {
     background-image: url("./images/extraction.jpeg");
-    height: 6rem;
-    width: 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,8 +86,6 @@ body {
 }
 #the-adam-project {
     background-image: url("./images/the-adam-project.jpeg");
-    height: 6rem;
-    width: 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,8 +93,6 @@ body {
 }
 #the-old-guard {
     background-image: url("./images/the-old-guard.jpeg");
-    height: 6rem;
-    width: 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
