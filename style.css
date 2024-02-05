@@ -35,7 +35,6 @@ body {
 }
 #peaky-blinders {
     background-image: url("./images/peaky-blinders.jpg");
-    height: 12rem;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,3 +112,16 @@ body {
     background-size: cover;
     position: relative;
 }
+#profile {
+    background-image: url("./images/profile.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+progress::-webkit-progress-bar {
+    background-color: white;
+ }
+ progress::-webkit-progress-value {
+    background-color: red;
+ }
