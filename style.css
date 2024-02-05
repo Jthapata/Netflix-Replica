@@ -28,7 +28,7 @@ body {
     background-image: url("./images/the-witcher.webp");
     height: 6rem;
     width: 9rem;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
