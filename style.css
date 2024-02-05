@@ -6,3 +6,110 @@ body {
     background-size: cover;
     position: relative;
 }
+#shadow-and-bone {
+    background-image: url("./images/shadow-and-bone.jpg");
+    height: 6rem;
+    width: 9rem;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#the-night-agent {
+    background-image: url("./images/the-night-agent.jpeg");
+    height: 6rem;
+    width: 9rem;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#the-witcher {
+    background-image: url("./images/the-witcher.webp");
+    height: 6rem;
+    width: 9rem;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#peaky-blinders {
+    background-image: url("./images/peaky-blinders.jpg");
+    height: 12rem;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#b99 {
+    background-image: url("./images/brooklyn-99.jpeg");
+    height: 6rem;
+    width: 10rem;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#ready-player-one {
+    background-image: url("./images/ready-player-one.jpeg");
+    height: 6rem;
+    width: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#money-heist {
+    background-image: url("./images/money-heist.png");
+    height: 6rem;
+    width: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#ash-vs-evil-dead {
+    background-image: url("./images/ash-vs-evil-dead.jpeg");
+    height: 6rem;
+    width: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#red-notice {
+    background-image: url("./images/red-notice.jpeg");
+    height: 6rem;
+    width: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#extraction {
+    background-image: url("./images/extraction.jpeg");
+    height: 6rem;
+    width: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#the-adam-project {
+    background-image: url("./images/the-adam-project.jpeg");
+    height: 6rem;
+    width: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#the-old-guard {
+    background-image: url("./images/the-old-guard.jpeg");
+    height: 6rem;
+    width: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

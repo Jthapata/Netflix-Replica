@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Netflix Replica</title>
 </head>
-<body class="flex flex-row items-center justify-evenly">
+<body class="flex flex-row items-center justify-evenly text-white">
     <div id="side-menu" class="flex flex-col justify-evenly items-center backdrop-blur-lg rounded-3xl text-white border border-gray-400">
         <i class="fa-regular fa-circle-play m-1 p-1 bg-red-500 border-red-500 rounded-xl cursor-pointer"></i>
         <i class="fa-solid fa-table-cells-large m-1 p-1 cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
@@ -26,30 +26,81 @@
             <i class="fa-solid fa-calendar-minus"></i>
             <p>Coming Soon</p>
             <h1>New Trailers &#128293;</h1>
-            <div id="shadow-and-bone">
+            <div id="shadow-and-bone" class="m-3 rounded-lg">
                 <p>Shadow and Bone</p>
                 <i class="fa-regular fa-circle-play"></i>
             </div>
-            <div id="the-night-agent">
+            <div id="the-night-agent" class="m-3 rounded-lg">
                 <p>The Night Agent</p>
                 <i class="fa-regular fa-circle-play"></i>
             </div>
-            <div id="the-witcher">
+            <div id="the-witcher" class="m-3 rounded-lg">
                 <p>The Witcher</p>
                 <i class="fa-regular fa-circle-play"></i>
             </div>
         </div>
-        <div id="main-content">
+        <div id="main-content" class="flex flex-col items-stretch">
             <header>
                 <span>&#9001;</span> <span>&#12297;</span>
                 <input type="search">
                 <i class="fa-regular fa-bell"></i>
                 <div>
-                    <img src="" alt="">
+                    <img src="images/profile.jpeg" alt="Profile Image" class="w-6 rounded-3xl">
                     <h4>Samantha G.</h4>
                     <p>@Samantha</p>
                 </div>
             </header>
+            <div id="peaky-blinders" class="">
+                <p>2013 - Drama - 5 seasons</p>
+                <button>Watch</button>
+                <span>+</span>
+            </div>
+            <h1>Popcorn Mania</h1>
+            <div id="popcorn-mania" class="flex">
+                <div id="b99">
+                    <h4>Brooklyn Nine-Nine</h4>
+                    <p>2020 U/A 16+ 7 Seasons</p>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div id="ready-player-one">
+                    <h4>Ready Player One</h4>
+                    <p>2018 U/A 13+ 2h 20m</p>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div id="money-heist">
+                    <h4>Money Heist</h4>
+                    <p>2021 A 2h 20m</p>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div id="ash-vs-evil-dead">
+                    <h4>Ash vs. Evil Dead</h4>
+                    <p>2018 A 3 Seasons</p>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+            <h1>Continue Watching</h1>
+            <div id="continue-watching" class="flex">
+                <div id="red-notice">
+                    <i class="fa-solid fa-play"></i>
+                    <h2>Red Notice</h2>
+                    <progress value="33" max="100"></progress>
+                </div>
+                <div id="extraction">
+                    <i class="fa-solid fa-play"></i>
+                    <h2>Extraction</h2>
+                    <progress value="65" max="100"></progress>
+                </div>
+                <div id="the-adam-project">
+                    <i class="fa-solid fa-play"></i>
+                    <h2>The Adam Project</h2>
+                    <progress value="15" max="100"></progress>
+                </div>
+                <div id="the-old-guard">
+                    <i class="fa-solid fa-play"></i>
+                    <h2>The Old Guard</h2>
+                    <progress value="80" max="100"></progress>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/5f57553318.js" crossorigin="anonymous"></script>
