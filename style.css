@@ -6,10 +6,13 @@ body {
     background-size: cover;
     position: relative;
 }
+.hero {
+    font-family: 'Protest Revolution', sans-serif;
+}
 #shadow-and-bone {
     background-image: url("./images/shadow-and-bone.jpg");
-    height: 6rem;
-    width: 9rem;
+    /* height: 6rem;
+    width: 9rem; */
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,8 +20,8 @@ body {
 }
 #the-night-agent {
     background-image: url("./images/the-night-agent.jpeg");
-    height: 6rem;
-    width: 9rem;
+    /* height: 6rem;
+    width: 9rem; */
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,8 +29,8 @@ body {
 }
 #the-witcher {
     background-image: url("./images/the-witcher.webp");
-    height: 6rem;
-    width: 9rem;
+    /* height: 6rem;
+    width: 9rem; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,6 +109,12 @@ body {
 progress::-webkit-progress-bar {
     background-color: white;
  }
- progress::-webkit-progress-value {
+progress::-webkit-progress-value {
     background-color: red;
- }
+}
+#sidebar {
+    flex-grow: 1;
+}
+#main-content {
+    flex-grow: 6;
+}

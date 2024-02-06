@@ -3,73 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="style.css">
     <title>Netflix Replica</title>
 </head>
 <body class=" flex items-center text-white">
-    <div id="side-menu" class="m-3 flex flex-col justify-evenly items-center backdrop-blur-lg rounded-3xl text-white border border-gray-400">
-        <i class="fa-regular fa-circle-play m-1 p-1 bg-red-500 border-red-500 rounded-2xl cursor-pointer"></i>
-        <i class="fa-solid fa-table-cells-large m-1 p-1 cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
-        <i class="fa-solid fa-tv m-1 p-1 cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
-        <i class="fa-solid fa-headphones-simple m-1 p-1 cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
-        <i class="fa-solid fa-house m-1 p-1 cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
-        <i class="fa-solid fa-magnifying-glass m-1 p-1 cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
+    <div id="side-menu" class="m-3 px-2 py-3  h-1/4 flex flex-col justify-between items-center backdrop-blur-lg rounded-3xl text-white border border-gray-400">
+        <i class="fa-solid fa-play bg-red-500 border-red-500 rounded-2xl cursor-pointer"></i>
+        <i class="fa-solid fa-table-cells-large cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
+        <i class="fa-solid fa-tv cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
+        <i class="fa-solid fa-headphones-simple cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
+        <i class="fa-solid fa-house cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
+        <i class="fa-solid fa-magnifying-glass cursor-pointer hover:border-red-500 hover:bg-red-500 hover:rounded-xl"></i>
     </div>
-    <div id="main-content" class="flex-grow self-stretch m-3 backdrop-blur-lg rounded-3xl border border-gray-400 flex">
-        <div id="sidebar" class="flex-grow-0 border-solid border-r border-gray-500">
+    <div id="main-content" class="flex-grow h-5/6 m-4 backdrop-blur-lg rounded-3xl border border-gray-400 flex">
+        <div id="sidebar" class="flex flex-col justify-between border-solid border-r border-gray-500">
             <img src="images/Netflix-Logo.svg" alt="Netflix Logo" class="w-36">
-            <div class="my-8 mx-3">
-                <p><i class="fa-solid fa-play my-3 p-2 bg-red-500 rounded-2xl text-black"></i> Browse</p>
-                <p><i class="fa-regular fa-heart my-3 p-2"></i> Wishlist</p>
-                <p><i class="fa-solid fa-calendar-minus my-3 p-2"></i> Coming Soon</p>
+            <div class="my-8 mx-4">
+                <p class="text-sm"><i class="fa-solid fa-play my-3 p-2 bg-red-500 rounded-2xl text-black"></i> Browse</p>
+                <p class="text-sm"><i class="fa-regular fa-heart my-3 p-2"></i> Wishlist</p>
+                <p class="text-sm"><i class="fa-solid fa-calendar-minus my-3 p-2"></i> Coming Soon</p>
             </div>
-            <h1 class="mx-3">New Trailers &#128293;</h1>
-            <div id="shadow-and-bone" class="m-3 rounded-lg flex items-end">
-                <div class="rounded-b-lg flex justify-between items-center backdrop-blur-lg w-36 p-1">
-                    <p class="text-xs">Shadow and Bone</p>
-                    <i class="fa-regular fa-circle-play"></i>
+            <div class="w-11/12 flex flex-col flex-grow mx-auto">
+                <h1 class="mx-3">New Trailers &#128293;</h1>
+                <div id="shadow-and-bone" class="m-3 rounded-lg flex items-end flex-grow">
+                    <div class="rounded-b-lg flex justify-between items-center backdrop-blur-lg w-full p-2">
+                        <p class="text-xs">Shadow and Bone</p>
+                        <i class="fa-solid fa-play bg-gray-500 rounded-3xl p-2 mr-3 text-sm"></i>
+                    </div>
                 </div>
-            </div>
-            <div id="the-night-agent" class="m-3 rounded-lg flex items-end">
-                <div class="rounded-b-lg flex justify-between items-center backdrop-blur-lg w-36 p-1">
-                    <p class="text-xs">The Night Agent</p>
-                    <i class="fa-regular fa-circle-play"></i>
+                <div id="the-night-agent" class="m-3 rounded-lg flex items-end flex-grow">
+                    <div class="rounded-b-lg flex justify-between items-center backdrop-blur-lg w-full p-2">
+                        <p class="text-xs">The Night Agent</p>
+                        <i class="fa-solid fa-play bg-gray-500 rounded-3xl p-2 mr-3 text-sm"></i>
+                    </div>
                 </div>
-            </div>
-            <div id="the-witcher" class="m-3 rounded-lg flex items-end">
-                <div class="rounded-b-lg flex justify-between items-center backdrop-blur-lg w-36 p-1">
-                    <p class="text-xs">The Witcher</p>
-                    <i class="fa-regular fa-circle-play"></i>
+                <div id="the-witcher" class="m-3 rounded-lg flex items-end flex-grow">
+                    <div class="rounded-b-lg flex justify-between items-center backdrop-blur-lg w-full p-2">
+                        <p class="text-xs">The Witcher</p>
+                        <i class="fa-solid fa-play bg-gray-500 rounded-3xl p-2 mr-3 text-sm"></i>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="main-content" class="flex flex-grow flex-col justify-between items-stretch">
+        <div id="main-content" class="flex flex-col justify-between items-stretch">
             <header class="flex justify-between items-center m-6">
                 <div>
-                    <span class="text-gray-500">&#9001;</span> <span>&#12297;</span>
+                    <span class="text-gray-500">&#9001;</span> <span class="ml-3">&#12297;</span>
                     <input type="search" placeholder="Search..." class="rounded-3xl p-2 text-xs bg-gray-500">
                 </div>
                 <div class="flex items-center">
-                    <i class="fa-regular fa-bell bg-gray-500 rounded-3xl p-2 text-center"></i>
-                    <div id="profile" class="w-8 rounded-3xl"></div>
-                    <div>
-                        <h4>Samantha G.</h4>
-                        <p>@Samantha</p>
+                    <i class="fa-regular fa-bell bg-gray-500 rounded-3xl p-2 mr-3 text-center"></i>
+                    <div class="bg-gray-500 rounded-full p-3 flex items-center">
+                        <div id="profile" class="w-10 h-10 rounded-3xl mr-3 border-solid border-red-500 border"></div>
+                        <div>
+                            <h4 class="text-sm">Samantha G.</h4>
+                            <p class="text-xs text-gray-300">@Samantha</p>
+                        </div>
                     </div>
                 </div>
             </header>
-            <div id="peaky-blinders" class="m-3 rounded-lg p-2 h-1/4">
-                <h1 class="text-7xl">Peaky</h1>
-                <h2 class="text-5xl">Blinders</h2>
+            <div id="peaky-blinders" class="flex flex-col justify-end m-3 rounded-lg p-6 h-1/3">
+                <h1 class="text-7xl hero">PEAKY</h1>
+                <h2 class="text-5xl hero">BLINDERS</h2>
                 <p class="text-gray-200 text-xs">2013 - Drama - 5 seasons</p>
-                <button class="bg-red-600 my-2 px-3 py-1 rounded-md text-sm">Watch</button>
-                <span><i class="fa-solid fa-plus bg-gray-500 px-3 py-2 rounded-md"></i></span>
+                <div>
+                    <button class="bg-red-600 my-2 px-3 py-1 rounded-md text-sm">Watch</button>
+                    <span><i class="fa-solid fa-plus bg-gray-500 px-3 py-2 rounded-md"></i></span>
+                </div>
             </div>
             <h1 class="mx-3 mt-3 text-lg">Popcorn Mania</h1>
             <div id="popcorn-mania" class="flex mx-3 my-2 h-1/4">
                 <div id="b99" class="flex items-end mr-1 rounded-md w-1/4">
-                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-1">
+                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-3">
                         <div>
                             <h4 class="text-sm">Brooklyn Nine-Nine</h4>
                             <p class="text-xs">2020 U/A 16+ 7 Seasons</p>
@@ -78,7 +87,7 @@
                     </div>
                 </div>
                 <div id="ready-player-one" class="flex items-end mx-1 rounded-md w-1/4">
-                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-1">
+                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-3">
                         <div>
                             <h4>Ready Player One</h4>
                             <p class="text-xs">2018 U/A 13+ 2h 20m</p>
@@ -87,7 +96,7 @@
                     </div>
                 </div>
                 <div id="money-heist" class="flex items-end mx-1 rounded-md w-1/4">
-                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-1">
+                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-3">
                         <div>
                             <h4>Money Heist</h4>
                             <p class="text-xs">2021 A 2h 20m</p>
@@ -96,7 +105,7 @@
                     </div>
                 </div>
                 <div id="ash-vs-evil-dead" class="flex items-end ml-1 rounded-md w-1/4">
-                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-1">
+                    <div class="bg-black flex justify-between items-center w-full rounded-b-md p-3">
                         <div>
                             <h4>Ash vs. Evil Dead</h4>
                             <p class="text-xs">2018 A 3 Seasons</p>
@@ -106,7 +115,7 @@
                 </div>
             </div>
             <h1 class="mx-3 mt-3 text-lg">Continue Watching</h1>
-            <div id="continue-watching" class="flex mx-3 my-2 h-1/4">
+            <div id="continue-watching" class="flex mx-3 my-2 h-1/5">
                 <div id="red-notice" class="mr-1 rounded-md flex flex-col justify-end p-2 w-1/4">
                     <i class="fa-solid fa-play self-center m-auto"></i>
                     <h2 class="text-xs">Red Notice</h2>
