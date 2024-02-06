@@ -70,8 +70,6 @@ body {
 }
 #red-notice {
     background-image: url("./images/red-notice.jpeg");
-    height: 6rem;
-    width: 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
