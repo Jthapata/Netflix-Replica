@@ -723,6 +723,30 @@ video {
   width: 2.75rem;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-56 {
+  width: 14rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
 .flex-none {
   flex: none;
 }
@@ -996,6 +1020,10 @@ video {
 
 .hover\:rounded-xl:hover {
   border-radius: 0.75rem;
+}
+
+.hover\:rounded-2xl:hover {
+  border-radius: 1rem;
 }
 
 .hover\:border-red-500:hover {
